@@ -4,10 +4,14 @@ const bahasaInggris = 100;
 const ipa = 100;
 
 if (
-  mtk !== null &&
-  bahasaIndonesia !== null &&
-  bahasaInggris !== null &&
-  ipa !== null
+  typeof mtk === "number" &&
+  mtk > 0 &&
+  typeof bahasaIndonesia === "number" &&
+  bahasaIndonesia > 0 &&
+  typeof bahasaInggris === "number" &&
+  bahasaInggris > 0 &&
+  typeof ipa === "number" &&
+  ipa > 0
 ) {
   const average = (mtk + bahasaIndonesia + bahasaInggris + ipa) / 4;
 
@@ -23,5 +27,5 @@ if (
     console.log("E");
   }
 } else {
-  console.log("Please insert your value");
+  console.log("Mapel must be number, and more than zero");
 }
