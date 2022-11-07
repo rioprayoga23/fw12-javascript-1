@@ -6,7 +6,7 @@ const changeConsonant = (word) => {
       word[i] == "a" ? (result += "o") : (result += word[i]);
     }
   } else {
-    return "Please insert a valid teks";
+    return "Word Must Be String";
   }
   return result;
 };
