@@ -6,10 +6,10 @@ const palindrome2 = (word) => {
       result += word[word.length - (i + 1)];
     }
   } else {
-    return "Letters must be more than 2 characters";
+    return "Huruf harus lebih dari 2 karakter";
   }
 
-  return word == result ? `${result} is Palindrome` : `Not palindrome`;
+  return word == result ? `${result} adalah Palindrome` : `bukan palindrome`;
 };
 
 console.log(palindrome2("ada"));

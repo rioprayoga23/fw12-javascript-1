@@ -6,10 +6,10 @@ const changeConsonant = (word) => {
       word[i] == "a" ? (result += "o") : (result += word[i]);
     }
   } else {
-    return "Word Must Be String";
+    return "teks harus bertipe string";
   }
   return result;
 };
 
-console.log(changeConsonant("Jakarta"));
+console.log(changeConsonant("jakarta"));
 console.log(changeConsonant(0));

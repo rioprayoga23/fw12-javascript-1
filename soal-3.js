@@ -27,5 +27,5 @@ if (
     console.log("E");
   }
 } else {
-  console.log("Mapel must be number, and more than zero");
+  console.log("Mapel harus bertipe number dan harus lebih besar dari 0");
 }
