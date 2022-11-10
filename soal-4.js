@@ -1,5 +1,5 @@
 const palindrome2 = (word) => {
-  let result = "";
+  let result = ""; //ada
 
   if (word.length > 2) {
     for (let i = 0; i < word.length; i++) {
@@ -9,7 +9,9 @@ const palindrome2 = (word) => {
     return "Huruf harus lebih dari 2 karakter";
   }
 
-  return word == result ? `${result} adalah Palindrome` : `bukan palindrome`;
+  const cek =
+    word == result ? `${result} adalah Palindrome` : `bukan palindrome`;
+  console.log(cek);
 };
 
-console.log(palindrome2("ada"));
+palindrome2("ada");

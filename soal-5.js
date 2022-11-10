@@ -1,4 +1,4 @@
-const changeConsonant = (word) => {
+const konsonan = (word) => {
   let result = "";
 
   if (typeof word == "string") {
@@ -6,10 +6,10 @@ const changeConsonant = (word) => {
       word[i] == "a" ? (result += "o") : (result += word[i]);
     }
   } else {
-    return "teks harus bertipe string";
+    console.log("teks harus bertipe string");
   }
-  return result;
+  console.log(result);
 };
 
-console.log(changeConsonant("jakarta"));
-console.log(changeConsonant(0));
+konsonan("jakarta");
+konsonan(0);
