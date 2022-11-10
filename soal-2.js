@@ -21,4 +21,4 @@ const biodata = {
   intrestedCoding: true,
 };
 
-console.log(biodata.schoolList[0].yearIn);
+console.log(biodata);
